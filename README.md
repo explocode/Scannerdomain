@@ -1,4 +1,5 @@
 # Web Vulnerability Scanner
+# credit : eliot by t.me/+Vh1gqRorPJwwNThk
 
 Questo codice è uno scanner di vulnerabilità web che verifica vari aspetti di sicurezza di un dominio specificato dall'utente. Esegue controlli per identificare potenziali vulnerabilità nelle applicazioni web, inclusi:
 
