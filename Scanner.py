@@ -150,7 +150,7 @@ def run_scanner(domain):
         print(f"{Colors.INFO}[INFO] No Open Redirect vulnerability detected.{Colors.RESET}")
 
 if __name__ == "__main__":
-    user_input = input("Please enter your domain (without http:// or https://) [default: www.cbi.ir]: ")
+    user_input = input("Please enter your domain (without http:// or https://) [default: www.example.com]: ")
     domain = user_input.strip() or "www.cbi.ir"
     
     if not domain.startswith("http://") and not domain.startswith("https://"):
